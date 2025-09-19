@@ -1,11 +1,28 @@
-API: dotnet run (note the port; set vite proxy to match)
+## Run instructions
 
-AI: uvicorn ai.app:app --reload --port 8000
+**API**: dotnet run (note the port; set vite proxy to match)
 
-Frontend: npm run dev
+**AI**: uvicorn ai.app:app --reload --port 8000
 
-Legacy: run WebForms site (IIS Express). Submit a referral.
+**Frontend**: npm run dev
 
-Console job: API_BASE=http://localhost:5xxx dotnet run --project CareFlowX.Console
+**Legacy**: run WebForms site (IIS Express). Submit a referral.
 
-Swagger: show endpoints. http://localhost:5xxx/swagger
+**Console job**: API_BASE=http://localhost:5xxx dotnet run --project CareFlowX.Console
+
+**Swagger**: show endpoints. http://localhost:5xxx/swagger
+
+
+## Why did I do things this way?
+
+**Legacy & Modern side-by-side**: shows I can maintain and modernize safely.
+
+**MVVM in Aurelia**: shows clean separation of concerns for testable UIs.
+
+**SQL + stored proc**: flexibility (ORM for CRUD, procs for perf-sensitive reports).
+
+**AI as a sidecar**: isolates risk, lets me iterate without touching core runtime.
+
+**Console job**: demonstrates background workflows and system integration.
+
+**CI**: production habits even for demos—repeatable builds, easy to extend to deploy.
