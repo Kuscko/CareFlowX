@@ -1,3 +1,7 @@
+# What is this?
+
+CareFlowX is a referral management system prototype designed to demonstrate end-to-end capabilities using both legacy & modern technologies. It’s built to show what I can do—from intake forms to AI, from UI to CI/CD pipelines.
+
 ## Run instructions
 
 **API**: dotnet run (note the port; set vite proxy to match)
