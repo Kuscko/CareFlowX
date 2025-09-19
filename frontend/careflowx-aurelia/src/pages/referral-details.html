@@ -1,0 +1,37 @@
+<section class="section">
+  <div class="container">
+    <h1 class="title">${id === 0 ? 'New Referral' : 'Referral ' + id}</h1>
+
+    <div class="field">
+      <label class="label">Patient Name</label>
+      <div class="control"><input class="input" value.two-way="model.patientName"></div>
+    </div>
+
+    <div class="field">
+      <label class="label">Provider</label>
+      <div class="control"><input class="input" value.two-way="model.provider"></div>
+    </div>
+
+    <div class="field">
+      <label class="label">Status</label>
+      <div class="control">
+        <div class="select">
+          <select value.two-way="model.status">
+            <option>New</option><option>InReview</option>
+            <option>Approved</option><option>Rejected</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <div class="field">
+      <label class="label">Notes</label>
+      <div class="control"><textarea class="textarea" value.two-way="model.notes"></textarea></div>
+    </div>
+
+    <div class="buttons">
+      <button class="button is-link" click.trigger="save()">Save</button>
+      <button class="button is-info" click.trigger="summarize()">AI Summarize</button>
+    </div>
+  </div>
+</section>

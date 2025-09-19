@@ -1,0 +1,18 @@
+<section class="section">
+  <div class="container">
+    <h1 class="title">Referrals</h1>
+    <a class="button is-primary" href="#/referrals/0">New Referral</a>
+    <table class="table is-fullwidth is-striped">
+      <thead><tr><th>Id</th><th>Patient</th><th>Provider</th><th>Status</th><th>Date</th></tr></thead>
+      <tbody>
+        <tr repeat.for="r of referrals">
+          <td><a href$="#/referrals/${r.id}">${r.id}</a></td>
+          <td>${r.patientName}</td>
+          <td>${r.provider}</td>
+          <td>${r.status}</td>
+          <td>${new Date(r.dateCreated).toLocaleString()}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>

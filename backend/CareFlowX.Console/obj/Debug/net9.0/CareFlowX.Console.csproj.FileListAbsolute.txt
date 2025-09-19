@@ -1,0 +1,14 @@
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\obj\Debug\net9.0\CareFlowX.Console.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\obj\Debug\net9.0\CareFlowX.Console.AssemblyInfoInputs.cache
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\obj\Debug\net9.0\CareFlowX.Console.AssemblyInfo.cs
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\obj\Debug\net9.0\CareFlowX.Console.csproj.CoreCompileInputs.cache
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\bin\Debug\net9.0\CareFlowX.Console.exe
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\bin\Debug\net9.0\CareFlowX.Console.deps.json
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\bin\Debug\net9.0\CareFlowX.Console.runtimeconfig.json
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\bin\Debug\net9.0\CareFlowX.Console.dll
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\bin\Debug\net9.0\CareFlowX.Console.pdb
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\obj\Debug\net9.0\CareFlowX.Console.dll
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\obj\Debug\net9.0\refint\CareFlowX.Console.dll
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\obj\Debug\net9.0\CareFlowX.Console.pdb
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\obj\Debug\net9.0\CareFlowX.Console.genruntimeconfig.cache
+C:\Users\pkelly\Desktop\Workspace\CareFlowX\backend\CareFlowX.Console\obj\Debug\net9.0\ref\CareFlowX.Console.dll

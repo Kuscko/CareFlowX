@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "MyConsoleApp": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "API_BASE": "http://localhost:5175"
+      }
+    }
+  }
+}

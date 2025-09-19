@@ -1,0 +1,26 @@
+IF DB_ID('CareFlowX') IS NULL
+  CREATE DATABASE CareFlowX;
+GO
+USE CareFlowX;
+GO
+
+IF OBJECT_ID('dbo.Referrals','U') IS NULL
+CREATE TABLE dbo.Referrals (
+  Id INT IDENTITY(1,1) PRIMARY KEY,
+  PatientName NVARCHAR(200) NOT NULL,
+  Provider NVARCHAR(200) NOT NULL,
+  Status NVARCHAR(50) NOT NULL DEFAULT 'New',
+  Notes NVARCHAR(MAX) NULL,
+  DateCreated DATETIME2 NOT NULL DEFAULT SYSUTCDATETIME()
+);
+GO
+
+CREATE OR ALTER PROCEDURE dbo.sp_Report_ReferralCounts
+AS
+BEGIN
+  SET NOCOUNT ON;
+  SELECT Status, COUNT(*) AS Cnt
+  FROM dbo.Referrals
+  GROUP BY Status;
+END;
+GO

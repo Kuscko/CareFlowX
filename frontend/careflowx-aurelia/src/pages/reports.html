@@ -1,0 +1,14 @@
+<section class="section">
+  <div class="container">
+    <h1 class="title">Reports</h1>
+    <table class="table is-fullwidth is-hoverable">
+      <thead><tr><th>Status</th><th>Count</th></tr></thead>
+      <tbody>
+        <tr repeat.for="s of summary">
+          <td>${s.status}</td>
+          <td>${s.count}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
