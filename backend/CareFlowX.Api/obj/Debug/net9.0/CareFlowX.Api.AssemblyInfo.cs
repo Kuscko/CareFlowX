@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CareFlowX.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eaef7ceff14ac07b2a1f0994feb9bb886c7f4441")]
 [assembly: System.Reflection.AssemblyProductAttribute("CareFlowX.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CareFlowX.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

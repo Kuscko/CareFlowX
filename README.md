@@ -8,6 +8,8 @@ CareFlowX is a referral management system prototype designed to demonstrate end-
 
 **AI**: uvicorn ai.app:app --reload --port 8000
 
+**DB**: Use the seeding script in the database to populate your preferred SQL database, must update related database connection strings.
+
 **Frontend**: npm run dev
 
 **Legacy**: run WebForms site (IIS Express). Submit a referral.
@@ -19,7 +21,7 @@ CareFlowX is a referral management system prototype designed to demonstrate end-
 
 ## Why did I do things this way?
 
-**Legacy & Modern side-by-side**: shows I can maintain and modernize safely.
+**Legacy & Modern side-by-side**: shows I can maintain and modernize safely. (done with .net 4.8)
 
 **MVVM in Aurelia**: shows clean separation of concerns for testable UIs.
 
